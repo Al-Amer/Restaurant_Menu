@@ -13,6 +13,9 @@ This  project you’ll cook up a tasty Restaurant Menu & Order Management System
 📝 Project Requirements
 
 ID	Functional Requirement	Description
+
+
+
 FR001	Project Bootstrap	Initialise an ASP.NET Core Web API with Minimal APIs (dotnet new webapi )
 
 FR002	EF Core Setup	Add EF Core and a local provider (SQLite). Register DbContext in DI.
