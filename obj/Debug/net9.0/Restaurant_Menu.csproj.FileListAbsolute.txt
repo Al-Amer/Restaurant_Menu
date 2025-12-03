@@ -25,3 +25,11 @@
 /Users/ameralmunajjed/WBS/C_Shapr/Projects/Restaurant_Menu/obj/Debug/net9.0/Restaurant_Menu.pdb
 /Users/ameralmunajjed/WBS/C_Shapr/Projects/Restaurant_Menu/obj/Debug/net9.0/Restaurant_Menu.genruntimeconfig.cache
 /Users/ameralmunajjed/WBS/C_Shapr/Projects/Restaurant_Menu/obj/Debug/net9.0/ref/Restaurant_Menu.dll
+/Users/ameralmunajjed/WBS/C_Shapr/Projects/Restaurant_Menu/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/ameralmunajjed/WBS/C_Shapr/Projects/Restaurant_Menu/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/ameralmunajjed/WBS/C_Shapr/Projects/Restaurant_Menu/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/ameralmunajjed/WBS/C_Shapr/Projects/Restaurant_Menu/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/ameralmunajjed/WBS/C_Shapr/Projects/Restaurant_Menu/obj/Debug/net9.0/Restaurant_Menu.csproj.AssemblyReference.cache
+/Users/ameralmunajjed/WBS/C_Shapr/Projects/Restaurant_Menu/obj/Debug/net9.0/Restaurant_Menu.MvcApplicationPartsAssemblyInfo.cs
+/Users/ameralmunajjed/WBS/C_Shapr/Projects/Restaurant_Menu/obj/Debug/net9.0/Restaurant_Menu.sourcelink.json
+/Users/ameralmunajjed/WBS/C_Shapr/Projects/Restaurant_Menu/obj/Debug/net9.0/Restaura.6366D854.Up2Date
