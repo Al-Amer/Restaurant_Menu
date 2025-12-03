@@ -54,3 +54,13 @@ Keep it simple: Don’t overcomplicate; 3 entities are enough for a strong demo.
 When your first order prints out on the dashboard, you’ll see how smoothly ASP.NET + EF can turn database tables into a polished, interactive web app.
 
 
+this command it is to setup the SQLite:
+
+dotnet add package Microsoft.EntityFrameworkCore
+
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+
+
