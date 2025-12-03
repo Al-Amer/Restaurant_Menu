@@ -55,13 +55,10 @@ When your first order prints out on the dashboard, you’ll see how smoothly ASP
 
 
 this command it is to setup the SQLite:
-
 dotnet add package Microsoft.EntityFrameworkCore
-
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite
-
 dotnet add package Microsoft.EntityFrameworkCore.Design
-
+or setup with version 
 dotnet add package Microsoft.EntityFrameworkCore --version 9.0.0
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 9.0.0
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.0
