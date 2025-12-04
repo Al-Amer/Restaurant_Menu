@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Restaurant_Menu.Seed;
+using Restaurant_Menu.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,8 +26,33 @@ if (app.Environment.IsDevelopment())
 
 app.MapGet("/", () => Results.Ok("Restaurant API"));
 app.MapGet("/info",()=> $"{greeting} \nThis application is called {aooName} \n  and is developed by {author}. \n Current time is: {app.Services.GetRequiredService<TimeService>().Now()}");
-app.Run();
 
+
+
+app.MapGet("/menu", (AppDbContext db) => 
+{
+    try
+    {
+        var menu = db.MenuItems.ToList();
+        return Results.Ok(menu);
+        
+    }
+    catch (Exception ex)
+    {
+        return Results.Problem(ex.Message+ "\n"+ ex.StackTrace+ "\n"+ ex.InnerException +"\n"+ ex.Source + "\n"+ ex.Data+ "\n"+ ex.HelpLink+ "\n"+ ex.TargetSite+"\n ====  a big problem occurred  ====");
+    }
+    // return db.MenuItems.Select(mi => new 
+    // {
+    //     mi.Id,
+    //     mi.Name,
+    //     mi.Category,
+    //     mi.Description,
+    //     mi.Price
+    // }).ToList();
+});
+
+
+app.Run();
 
 // TimService.cs
 public class TimeService
