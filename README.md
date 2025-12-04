@@ -63,5 +63,12 @@ dotnet add package Microsoft.EntityFrameworkCore --version 9.0.0
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 9.0.0
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 9.0.0
 
+dotnet tool install --global dotnet-ef --version 9.0.0
+echo 'export PATH="$PATH:$HOME/.dotnet/tools"' >> ~/.zshrc
+to check ef version :   dotnet ef --version
+
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
 
 
